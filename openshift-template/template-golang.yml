@@ -36,7 +36,7 @@ objects:
             #Estamos criando uma imageStreamTag para pegar o código de uma referência
             # do docker para este gerar a nossa imagem.
             kind: DockerImage
-            name: renatogomes256/app-golang:latest
+            name: diegoantoni/golang-application
 
             #Usar imagem oficial dentro do OCP/OKD
 #            kind: ImageStreamTag
